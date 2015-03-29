@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/accent_material_dark"
+    >
+
+    <include layout="@layout/header" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutHeader"
+        android:divider="@drawable/abc_ab_share_pack_holo_light"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/abc_list_selector_holo_light"
+        android:cacheColorHint="@color/bright_foreground_material_dark" />
+
+
+
+</RelativeLayout>
